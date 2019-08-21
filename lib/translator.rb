@@ -29,5 +29,5 @@ end
 
 def get_english_meaning(file_path, jap_emot)
   emoticon = load_library(file_path)[:get_meaning][jap_emot]
-  
+  emoticon ? emoticon : "Sorry, that emoticon was not found"
 end
