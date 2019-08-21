@@ -20,7 +20,7 @@ lib.each do |key, value|
 end
 
 #p emot_lib[:get_emoticon][lib.values[0]] = 
-p emot_lib[lib.keys[0]][1]]
+p emot_lib[lib.keys[0]][1]
 
 #lib.each do |key, value|
 #  emot_lib[:get_emoticon][value[0]] = lib[key][1]
