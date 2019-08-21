@@ -26,7 +26,7 @@ emot_lib[:get_meaning] = {lib.keys[0] => lib.values[0][1]}
 #end
 
 #p emot_lib[:get_emoticon][lib.values[0][1]]
-p lib.values[0]
+p lib.values[0][1]
 #p lib[lib.keys[0]][1]
 
 
