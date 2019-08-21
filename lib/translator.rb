@@ -20,14 +20,14 @@ end
 p load_library('emoticons.yml')
 
 def get_japanese_emoticon(file_path, eng_emot)
-  jap_emot = load_library(file_path)[:get_emoticon][eng_emot]
-  if jap_emot 
-    jap_emot
+  emoticon = load_library(file_path)[:get_emoticon][eng_emot]
+  if emoticon 
+    emoticon
   else "Sorry, that emoticon was not found"
   end
 end
 
 def get_english_meaning(file_path, jap_emot)
-  eng_emot = load_library()
+  emoticon = load_library(file_path)[:get_meaning][jap_emot]
   
 end
