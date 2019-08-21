@@ -17,7 +17,7 @@ emot_lib[:get_meaning] = {lib.keys[0] => lib.values[0][1]}
 # note: key == lib.keys[0] and value[0] = lib.values[0][1]
 #lib.each do |key, value|
 #  emot_lib.keys[0] = {key => value[0]}
-  emot_lib.keys[1] = {key => value[1]}
+#  emot_lib.keys[1] = {key => value[1]}
 #end
 
 lib.each do |key, value|
