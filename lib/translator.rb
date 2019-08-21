@@ -14,7 +14,6 @@ def load_library(file_path)
     emot_lib[:get_meaning][value[1]] = key
   end 
 
-#  emot_lib[emot_lib.keys[0]] = {lib.keys[0] => lib[lib.keys[0]][1]}
   emot_lib
 end
 
